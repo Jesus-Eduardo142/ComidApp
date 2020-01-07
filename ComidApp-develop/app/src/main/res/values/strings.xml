@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ComidApp</string>
+    <string name="title_activity_food_list">FoodList</string>
+    <string name="title_activity_profile">Profile</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "name": "ComidAppAPI",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.12.3",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.19.6",
+    "swagger-express-mw": "^0.1.0",
+    "swagger-tools": "latest",
+    "yamljs": "latest",
+    "jsonwebtoken": "latest",
+    "lodash": "latest"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "swagger project test"
+  }
+}
